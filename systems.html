@@ -9,10 +9,6 @@
 
 <body>
 
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-
 <div class="navbar">
   <a href="./"> HOME </a>
   <div class="subnav">
@@ -35,116 +31,101 @@
 </div>
 
 
-<div class="centerDiv">
-    <div class="div1">
-        <div class="textBox"> 
 
-           <div class="cen"> 
-                <div class="div2">
-                    <div class="left">
-                        <img src="images/scheduler.PNG" alt="scheduler"> 
-                    </div>
-                    <div class="right">
-                        <h2>Weight R.R Scheduler</h2>
-                        <div class="rtxt">
-                        Language: C<br>
-                        Date: November/2019
-                        </div>
-                        <div class="txt">
-                        <ul>
-                            <li>A Linux kernel scheduler that supports a weight round-robin scheduling policy as the default scheduling policy for <i>init</i> and all of its descendants</li>
-                            <li>Multicore system is fully supported</li>
-                            <li>Assigns the task to the CPU with the least total weight</li>
-                            <li>Capable of working on both uniprocessor systems and multicore/multiprocessor systems</li>
-                            <li>Fully supports load balancing; that is, a CPU steals a task from another CPU when it doesn't have any tasks to run</li>
-                        </ul>
-                        </div>
-                        <div class="rtxt">
-                        <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/scheduler" target="_blank">[see the code on github]</a>
-                        </div>
-                    </div>
+<div class="centerDiv">
+    <div class="textBox">
+
+        <div class="cen">
+            <div class="left">
+                <img src="images/scheduler.PNG" alt="scheduler"> 
+            </div>
+            <div class="right">
+                <h2>Weight R.R Scheduler</h2>
+                <div class="note">
+                    Language: C<br>
+                    Date: November/2019
+                </div>
+                <ul>
+                    <li>A Linux kernel scheduler that supports a weight round-robin scheduling policy as the default scheduling policy for <i>init</i> and all of its descendants</li>
+                    <li>Multicore system is fully supported</li>
+                    <li>Assigns the task to the CPU with the least total weight</li>
+                    <li>Capable of working on both uniprocessor systems and multicore/multiprocessor systems</li>
+                    <li>Fully supports load balancing; that is, a CPU steals a task from another CPU when it doesn't have any tasks to run</li>
+                </ul>
+                <div class="note">
+                    <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/scheduler" target="_blank">[see the code on github]</a>
                 </div>
             </div>
-            
-            <div class="cen">
-                <div class="div2">
-                    <div class="left">
-                        <img src="images/synchronizer.png" alt="synchronizer"> 
-                    </div>
-                    <div class="right">
-                        <h2>Android Synchronizer</h2>
-                        <div class="rtxt">
+        </div>
+
+        <div class="cen">
+            <div class="left">
+                <img src="images/synchronizer.png" alt="synchronizer"> 
+            </div>
+            <div class="right">
+                <h2>Android Synchronizer</h2>
+                <div class="note">
                         Language: C<br>
                         Date: October/2019
-                        </div>
-                        <div class="txt">
-                        <ul>
-                            <li>A new kernel synchronization mechanism that allows multiple processes to block on <i>a rotation event</i> until the android emulator exceeds a certain rotational speed</li>
-                            <li>The device rotation state is accessed via an on-board gyroscope that reflects the rotational speed around X,Y and Z axis of the device</li>
-                            <li>When the emulator rotation is updated, all processes that are blocked on <i>a rotation event</i> are unblocked if that event is triggered</li>
-                            <li>To be resistant to noise, the kernel records <i>N</i> rotational samples; only when <i>n</i> out of <i>N</i> samples exceed the threshold, the event is triggered</li>
-                        </ul>
-                        </div>
-                        <div class="rtxt">
-                        <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/synchronizer" target="_blank">[see the code on github]</a>
-                        </div>
-                    </div>
+                </div>
+                <ul>
+                        <li>A new kernel synchronization mechanism that allows multiple processes to block on <i>a rotation event</i> until the android emulator exceeds a certain rotational speed</li>
+                        <li>The device rotation state is accessed via an on-board gyroscope that reflects the rotational speed around X,Y and Z axis of the device</li>
+                        <li>When the emulator rotation is updated, all processes that are blocked on <i>a rotation event</i> are unblocked if that event is triggered</li>
+                        <li>To be resistant to noise, the kernel records <i>N</i> rotational samples; only when <i>n</i> out of <i>N</i> samples exceed the threshold, the event is triggered</li>
+                </ul>
+                <div class="note">
+                    <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/synchronizer" target="_blank">[see the code on github]</a>
                 </div>
             </div>
-            
-            <div class="cen">
-                <div class="div2">
-                    <div class="left">
-                        <img src="images/tcp.jpg" alt="tcp"> 
-                    </div>
-                    <div class="right">
-                        <h2>TCP Server</h2>
-                        <div class="rtxt">
+        </div>
+
+        <div class="cen">
+            <div class="left">
+                <img src="images/tcp.jpg" alt="tcp"> 
+            </div>
+            <div class="right">
+                <h2>TCP Server</h2>
+                <div class="note">
                         Language: C<br>
                         Date: November/2018
-                        </div>
-                        <div class="txt">
-                        <ul>
-                            <li>A web server that implements a subset of HTTP 1.0, and that handles GET requests for static content</li>
-                            <li>It maintains a persistent TCP connection to a lookup server</li>
-                            <li>Providing an HTML front-end to the lookup server, the server returns dynamic content, specifically lookup records formatted in an HTML table</li>
-                        </ul>
-                        </div>
-                        <div class="rtxt">
-                        <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/tcp" target="_blank">[see the code on github]</a>
-                        </div>
-                    </div>
+                </div>
+                <ul>
+                        <li>A web server that implements a subset of HTTP 1.0, and that handles GET requests for static content</li>
+                        <li>It maintains a persistent TCP connection to a lookup server</li>
+                        <li>Providing an HTML front-end to the lookup server, the server returns dynamic content, specifically lookup records formatted in an HTML table</li>
+                </ul>
+                <div class="note">
+                    <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/tcp" target="_blank">[see the code on github]</a>
                 </div>
             </div>
+        </div>
 
-            <div class="cen">
-                <div class="div2">
-                    <div class="left">
-                        <img src="images/bash.jpg" alt="bash"> 
-                    </div>
-                    <div class="right">
-                        <h2>My Simple Bash Shell</h2>
-                        <div class="rtxt">
+        <div class="cen">
+            <div class="left">
+                <img src="images/bash.jpg" alt="bash"> 
+            </div>
+            <div class="right">
+                <h2>My Simple Bash Shell</h2>
+                <div class="note">
                         Language: C<br>
                         Date: September/2019
-                        </div>
-                        <div class="txt">
-                        <ul>
-                            <li>Modeled after Bash Shell, it runs continuously, and executes the command if valid, and auto-suggests commands for an invalid command</li>
-                            <li>Augmented to be capable of executing a sequence of multiple programs through a pipe</li>
-                        </ul>
-                        </div>
-                        <div class="rtxt">
-                        <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/mybash" target="_blank">[see the code on github]</a>
-                        </div>
-                    </div>
+                </div>
+                <ul>
+                        <li>Modeled after Bash Shell, it runs continuously, and displays a prompt when waiting for input</li>
+                        <li>After parsing and lexing the command, it executes it</li>
+                        <li>It remembers the last 100 commands the user ran successfully, and auto-suggests commands for an invalid command</li>
+                        <li>Augmented to be capable of executing a sequence of multiple programs, allowing for communication between programs through a pipe</li>
+                </ul>
+                <div class="note">
+                    <a href="https://github.com/hyunsoojeon0103/Systems/tree/master/mybash" target="_blank">[see the code on github]</a>
                 </div>
             </div>
-
         </div>
+
+
     </div>
 </div>
-
 
 </body>
 </html>
