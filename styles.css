@@ -598,8 +598,8 @@ p {
 }
 .div2 img {
     float:left;
-    width:50%;
-    height:50%;
+    width:95%;
+    height:100%;
     padding-right:30px;
 
 }
@@ -617,4 +617,15 @@ p {
 .rtxt {
     text-align:right;
 }
-
+.cen {
+    height:100%;
+    width:100%;
+}
+.left {
+    width:50%;
+    float:left;
+}
+.right{
+    width:50%;
+    float:left;
+}
