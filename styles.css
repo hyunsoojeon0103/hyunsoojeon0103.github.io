@@ -600,8 +600,6 @@ p {
     float:left;
     width:95%;
     height:100%;
-    padding-right:30px;
-
 }
 .div2 a {
     color:white;
@@ -621,6 +619,7 @@ p {
     height:100%;
     width:100%;
 }
+
 .left {
     width:50%;
     float:left;
