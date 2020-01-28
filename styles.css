@@ -577,10 +577,12 @@ p {
     height:100%;
     margin: 0 auto;
     margin-top: 3%;
-    margin-left:20%;
+    margin-left:18%;
+    /*margin-left:20%;*/
 }
 .div1 {
-    width: 60%;
+    /*width:60%;*/
+    width: 65%;
     height:500px;
     background-color:black;
     float:left;
