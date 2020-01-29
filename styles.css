@@ -181,14 +181,14 @@ p {
     /*width:800px;
     height:500px;*/
     width:60%;
-    height:40%;
+    height:100%;
 }
 .textBox{
     color:white;
     line-height:1.6;
     font-family: "lato",sans-serif;
     font: 15px;
-    height:700px;
+    height:100%;
     overflow:auto;
 }
 .left {
