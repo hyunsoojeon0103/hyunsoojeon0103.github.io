@@ -193,7 +193,7 @@ p {
 }
 .left {
     width:45%;
-    height:400px;
+    height:350px;
     float:left;
     padding:5px;
 }
@@ -209,7 +209,7 @@ p {
 }
 .right{
     width:50%;
-    height:400px;
+    height:350px;
     float:right;
     padding:5px;
     overflow:auto;
