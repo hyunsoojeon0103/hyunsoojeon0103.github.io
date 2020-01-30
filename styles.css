@@ -1,7 +1,7 @@
-html {
+html{
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  /*overflow: hidden;*/
+  background-attachment:fixed;
 }
 
 #title {
@@ -173,19 +173,12 @@ p {
     color:white;
 }
 
-.centerDiv {
+.centerDiv{
     margin-left:auto;
     margin-right:auto;
-<<<<<<< HEAD
-    /*margin-top:100px;*/
-=======
-    /*margin-top:5%;*/
->>>>>>> 940aa6c968fec158e377b6eb242bef6961e7cfab
-    background-color:black;
-    /*width:800px;
-    height:500px;*/
     width:60%;
     height:100%;
+    background-color:black;
     overflow:auto;
 }
 .textBox{
@@ -193,13 +186,6 @@ p {
     line-height:1.6;
     font-family: "lato",sans-serif;
     font: 15px;
-<<<<<<< HEAD
-    /*height:500px;*/
-    height:700px;
-=======
-    height:100%;
->>>>>>> 940aa6c968fec158e377b6eb242bef6961e7cfab
-    overflow:auto;
 }
 .left {
     width:45%;
